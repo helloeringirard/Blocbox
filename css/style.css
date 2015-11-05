@@ -321,3 +321,7 @@ html, body{
    font-size:13px;
    margin-top: 30px;
  }
+
+ .testimonials blockquote.staggered {
+    margin-top:20px;
+ }
