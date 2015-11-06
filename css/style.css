@@ -43,36 +43,8 @@ html, body{
    margin:0 2% 20px;
  }
 
- @media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
- }
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
- }
 
- @media (min-width: 1600px) {
-    .container {
-      width: 1560;
-    }
- }
+
 
   /* HEADER */
  header {
@@ -377,4 +349,143 @@ html, body{
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
+ }
+
+ @media (min-width: 200px) and (max-width: 767px) {
+  
+ .benefits .one-third {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+ }
+
+ .benefits i {
+   font-size:40px; 
+ }
+ .benefits h2 {
+    font-size:24px;
+ }
+
+.box.middle {
+   min-height: 439px;
+   margin-top: 25px;
+}
+
+.box {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .hero h1 {
+   font-size:30px;
+ }
+
+ header .hero p {
+   font-size: 18px;
+   line-height: 22px;
+ }
+ header .hero img {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 95%;
+ }
+
+ header ul {
+  margin-left:auto;
+  margin-right: auto;
+  float: none;
+  text-align: center;
+ }
+
+ .btn {
+  font-weight: 500;
+ }
+
+ .site-logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+  .testimonials blockquote {
+    max-width: 250px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .testimonials img {
+   float: none; 
+   margin-top: 15px;
+    }
+
+ .testimonials p.name {
+   float: none;
+    margin-top: 15px;
+ }
+
+ footer {
+   background-color: #34495E;
+   height: 300px;
+   position: relative;
+   overflow: visible;
+   z-index: 0;
+   background-image: none;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: #34495E;
+ }
+ footer .logo{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   padding: 0em;
+ }
+
+}
+
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ @media (min-width: 1600px) {
+    .container {
+      width: 1560;
+    }
  }
