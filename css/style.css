@@ -332,6 +332,24 @@ html, body{
    display: block;
  }
 
+ /* DASHBOARD */
+
+ #note {
+  text-decoration: none;
+  font-size: 14px;
+
+ }
+
+ /* SORTING FUNCTIONALITY */
+
+ input[type="radio"][class="image"]:checked ~ .link, 
+ input[type="radio"][class="image"]:checked ~ .note {
+  display: none;
+  
+}
+
+ /* RESPONSIVENESS */
+
  @media (min-width: 992px){
    footer{
      background-color: #3498DB;
