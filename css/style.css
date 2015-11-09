@@ -343,9 +343,15 @@ html, body{
 
  /* SORTING FUNCTIONALITY */
 
+<<<<<<< HEAD
  input[type="radio"][class="image"]:checked ~ div.content.container.content-item.link.item-box, 
  input[type="radio"][class="image"]:checked ~ div.content.container.content-item.note.item-box {
   display: none !important;
+=======
+ input[type="radio"][class="image"]:checked ~ .link, 
+ input[type="radio"][class="image"]:checked ~ .note {
+  display: none;
+>>>>>>> gh-pages
   
 }
 
@@ -507,4 +513,8 @@ header .hero h1 {
     .container {
       width: 1560;
     }
+<<<<<<< HEAD
  }
+=======
+ }
+>>>>>>> gh-pages
