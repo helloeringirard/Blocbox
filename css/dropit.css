@@ -18,7 +18,7 @@
 .dropit .dropit-trigger { 
     position: relative;}
 
-.dropit .dropit-submenu {
+.header .dropit .dropit-submenu {
     position: absolute;
     top: 25px;
     right: 0; /* dropdown left or right */ /* dropdown left or right */
@@ -28,6 +28,20 @@
     list-style: none;
 	padding: 30px;
 	margin: 20px 0 0;
+    float: right;
+    height: 110px;
+}
+
+.dropit .dropit-submenu {
+    position: absolute;
+    bottom: -15px;
+    right: 0; /* dropdown left or right */ /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+    padding: 30px;
+    margin: 20px 0 0;
     float: right;
 }
 
